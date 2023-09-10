@@ -6,4 +6,6 @@ set(CMAKE_C_STANDARD 11)
 add_executable(EDA_CLion
         Exercicios/questao1-pilhas.c
         main.c
-        Filas/fila.c)
+        Filas/fila.c
+        Listas/listas.c
+        Pilhas/pilha.c)
