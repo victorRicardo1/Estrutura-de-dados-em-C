@@ -1,0 +1,3 @@
+C:/Users/Rictor/Documents/GitHub/Estrutura-de-dados-em-C/EDA-CLion/cmake-build-debug/CMakeFiles/EDA_CLion.dir
+C:/Users/Rictor/Documents/GitHub/Estrutura-de-dados-em-C/EDA-CLion/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Rictor/Documents/GitHub/Estrutura-de-dados-em-C/EDA-CLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
