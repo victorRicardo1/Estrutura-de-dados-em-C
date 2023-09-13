@@ -2,5 +2,6 @@
 #include <stdlib.h>
 
 int main(){
-    questao1Pilha();
+//    questao1Pilha();
+        pilhas();
 };

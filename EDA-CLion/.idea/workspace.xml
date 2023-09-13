@@ -20,16 +20,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ff4ed99-e618-46ea-a4fe-737afc405b63" name="Changes" comment="Arquivos educativos">
-      <change afterPath="$PROJECT_DIR$/Filas/fila.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-ecaf72ebd081c044c4bc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-09-10T00-48-05-0489.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-EDA_CLion-Debug-f539e7ed2fc48ec8b6e8.json" beforeDir="false" />
+    <list default="true" id="7ff4ed99-e618-46ea-a4fe-737afc405b63" name="Changes" comment="outros arquivos">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pilhas/pilha.c" beforeDir="false" afterPath="$PROJECT_DIR$/Pilhas/pilha.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EDA_CLion.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EDA_CLion.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/EDA_CLion.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/EDA_CLion.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +83,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,7 +93,10 @@
       <option name="presentableId" value="Default" />
       <updated>1694297719361</updated>
       <workItem from="1694297721252" duration="7619000" />
-      <workItem from="1694306643591" duration="623000" />
+      <workItem from="1694306643591" duration="777000" />
+      <workItem from="1694330392298" duration="498000" />
+      <workItem from="1694456145821" duration="246000" />
+      <workItem from="1694644272270" duration="1464000" />
     </task>
     <task id="LOCAL-00001" summary="questao1">
       <option name="closed" value="true" />
@@ -109,7 +106,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694306148359</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fila adicionada">
+      <option name="closed" value="true" />
+      <created>1694307282674</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694307282674</updated>
+    </task>
+    <task id="LOCAL-00003" summary="outros arquivos">
+      <option name="closed" value="true" />
+      <created>1694307421647</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694307421647</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +160,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="questao1" />
     <MESSAGE value="Arquivos educativos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arquivos educativos" />
+    <MESSAGE value="fila adicionada" />
+    <MESSAGE value="outros arquivos" />
+    <option name="LAST_COMMIT_MESSAGE" value="outros arquivos" />
   </component>
 </project>
