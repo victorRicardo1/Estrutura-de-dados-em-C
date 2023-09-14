@@ -3,5 +3,7 @@
 
 int main(){
 //    questao1Pilha();
-        pilhas();
+//    pilhas();
+//    fila();
+    lista();
 };

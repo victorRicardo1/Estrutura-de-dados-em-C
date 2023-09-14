@@ -53,4 +53,3 @@ int pilhas(){
     push(&topo, pilha3);
     imprimir(topo);
 }
-

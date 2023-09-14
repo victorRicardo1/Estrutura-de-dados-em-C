@@ -20,8 +20,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ff4ed99-e618-46ea-a4fe-737afc405b63" name="Changes" comment="outros arquivos">
+    <list default="true" id="7ff4ed99-e618-46ea-a4fe-737afc405b63" name="Changes" comment="pilha">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Filas/fila.c" beforeDir="false" afterPath="$PROJECT_DIR$/Filas/fila.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Listas/listas.c" beforeDir="false" afterPath="$PROJECT_DIR$/Listas/listas.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pilhas/pilha.c" beforeDir="false" afterPath="$PROJECT_DIR$/Pilhas/pilha.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
@@ -96,7 +98,9 @@
       <workItem from="1694306643591" duration="777000" />
       <workItem from="1694330392298" duration="498000" />
       <workItem from="1694456145821" duration="246000" />
-      <workItem from="1694644272270" duration="1464000" />
+      <workItem from="1694644272270" duration="4372000" />
+      <workItem from="1694717031937" duration="3596000" />
+      <workItem from="1694720668701" duration="3265000" />
     </task>
     <task id="LOCAL-00001" summary="questao1">
       <option name="closed" value="true" />
@@ -122,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694307421647</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="pilha">
+      <option name="closed" value="true" />
+      <created>1694645972545</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694645972545</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +174,18 @@
     <MESSAGE value="Arquivos educativos" />
     <MESSAGE value="fila adicionada" />
     <MESSAGE value="outros arquivos" />
-    <option name="LAST_COMMIT_MESSAGE" value="outros arquivos" />
+    <MESSAGE value="pilha" />
+    <option name="LAST_COMMIT_MESSAGE" value="pilha" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.c</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
