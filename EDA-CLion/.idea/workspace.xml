@@ -21,15 +21,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ff4ed99-e618-46ea-a4fe-737afc405b63" name="Changes" comment="pilha">
+      <change afterPath="$PROJECT_DIR$/deques/deque.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deques/exercicio1-deque.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filas/fila.c" beforeDir="false" afterPath="$PROJECT_DIR$/Filas/fila.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Listas/listas.c" beforeDir="false" afterPath="$PROJECT_DIR$/Listas/listas.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilhas/pilha.c" beforeDir="false" afterPath="$PROJECT_DIR$/Pilhas/pilha.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EDA_CLion.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EDA_CLion.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/EDA_CLion.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/EDA_CLion.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +102,11 @@
       <workItem from="1694456145821" duration="246000" />
       <workItem from="1694644272270" duration="4372000" />
       <workItem from="1694717031937" duration="3596000" />
-      <workItem from="1694720668701" duration="3265000" />
+      <workItem from="1694720668701" duration="3478000" />
+      <workItem from="1695152278278" duration="691000" />
+      <workItem from="1695678317018" duration="2366000" />
+      <workItem from="1695755284251" duration="7285000" />
+      <workItem from="1695764000224" duration="2659000" />
     </task>
     <task id="LOCAL-00001" summary="questao1">
       <option name="closed" value="true" />
@@ -134,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694645972545</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="pilha">
+      <option name="closed" value="true" />
+      <created>1694726476627</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694726476627</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

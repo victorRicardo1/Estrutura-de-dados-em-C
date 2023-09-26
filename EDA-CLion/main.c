@@ -5,5 +5,7 @@ int main(){
 //    questao1Pilha();
 //    pilhas();
 //    fila();
-    lista();
+//    lista();
+
+exercicio2();
 };
