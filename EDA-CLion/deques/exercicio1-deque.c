@@ -130,7 +130,7 @@ void exibe(Nodo *inicio, int pos, char ordem) {
             atual = atual->prox;
         }
         if (atual == NULL) {
-            printf("A posição %d não existe na lista.\n", pos);
+            printf("A posicao %d nao existe na lista.\n", pos);
             return;
         }
         while (atual != NULL) {
@@ -145,7 +145,7 @@ void exibe(Nodo *inicio, int pos, char ordem) {
             count++;
         }
         if (atual == NULL) {
-            printf("A posição %d não existe na lista.\n", pos);
+            printf("A posicao %d nao existe na lista.\n", pos);
             return;
         }
         while (atual != NULL) {

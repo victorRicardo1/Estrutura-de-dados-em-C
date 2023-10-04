@@ -6,6 +6,8 @@ int main(){
 //    pilhas();
 //    fila();
 //    lista();
+//exercicio2();
 
-exercicio2();
+//questao1();
+exx2g();
 };

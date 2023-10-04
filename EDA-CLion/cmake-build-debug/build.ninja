@@ -91,6 +91,12 @@ build CMakeFiles/EDA_CLion.dir/deques/exercicio1-deque.c.obj: C_COMPILER__EDA_CL
   OBJECT_DIR = CMakeFiles\EDA_CLion.dir
   OBJECT_FILE_DIR = CMakeFiles\EDA_CLion.dir\deques
 
+build CMakeFiles/EDA_CLion.dir/quicksort.c.obj: C_COMPILER__EDA_CLion_unscanned_Debug C$:/Users/Rictor/Documents/GitHub/Estrutura-de-dados-em-C/EDA-CLion/quicksort.c || cmake_object_order_depends_target_EDA_CLion
+  DEP_FILE = CMakeFiles\EDA_CLion.dir\quicksort.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\EDA_CLion.dir
+  OBJECT_FILE_DIR = CMakeFiles\EDA_CLion.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target EDA_CLion
@@ -99,7 +105,7 @@ build CMakeFiles/EDA_CLion.dir/deques/exercicio1-deque.c.obj: C_COMPILER__EDA_CL
 #############################################
 # Link the executable EDA_CLion.exe
 
-build EDA_CLion.exe: C_EXECUTABLE_LINKER__EDA_CLion_Debug CMakeFiles/EDA_CLion.dir/Exercicios/questao1-pilhas.c.obj CMakeFiles/EDA_CLion.dir/main.c.obj CMakeFiles/EDA_CLion.dir/Filas/fila.c.obj CMakeFiles/EDA_CLion.dir/Listas/listas.c.obj CMakeFiles/EDA_CLion.dir/Pilhas/pilha.c.obj CMakeFiles/EDA_CLion.dir/deques/deque.c.obj CMakeFiles/EDA_CLion.dir/deques/exercicio1-deque.c.obj
+build EDA_CLion.exe: C_EXECUTABLE_LINKER__EDA_CLion_Debug CMakeFiles/EDA_CLion.dir/Exercicios/questao1-pilhas.c.obj CMakeFiles/EDA_CLion.dir/main.c.obj CMakeFiles/EDA_CLion.dir/Filas/fila.c.obj CMakeFiles/EDA_CLion.dir/Listas/listas.c.obj CMakeFiles/EDA_CLion.dir/Pilhas/pilha.c.obj CMakeFiles/EDA_CLion.dir/deques/deque.c.obj CMakeFiles/EDA_CLion.dir/deques/exercicio1-deque.c.obj CMakeFiles/EDA_CLion.dir/quicksort.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\EDA_CLion.dir

@@ -10,4 +10,6 @@ add_executable(EDA_CLion
         Listas/listas.c
         Pilhas/pilha.c
         deques/deque.c
-        deques/exercicio1-deque.c)
+        deques/exercicio1-deque.c
+        quicksort.c
+)

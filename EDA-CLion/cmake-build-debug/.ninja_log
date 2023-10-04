@@ -1,15 +1,10 @@
 # ninja log v5
 2	106	7164294656653422	CMakeFiles/EDA_CLion.dir/Listas/listas.c.obj	f5a1ab964c6f2f4b
-146	297	7174696521550043	EDA_CLion.exe	b5e9a2bd032b22a7
+159	318	7174753636361279	EDA_CLion.exe	92895fe195a26b5a
 1	150	7160098115917465	CMakeFiles/EDA_CLion.dir/Exercicios/questao1-pilhas.c.obj	18c361053aff7a12
-4	329	7173829694641885	CMakeFiles/EDA_CLion.dir/main.c.obj	d5be8b125052942a
-18	332	7173829694641885	CMakeFiles/EDA_CLion.dir/deques/deque.c.obj	91bb43ed307c3cee
+3	138	7174753634573872	CMakeFiles/EDA_CLion.dir/main.c.obj	d5be8b125052942a
+4	136	7174752001101505	CMakeFiles/EDA_CLion.dir/deques/deque.c.obj	91bb43ed307c3cee
+17	158	7174753634787690	CMakeFiles/EDA_CLion.dir/deques/exercicio2gusta.c.obj	b358fb6862f5db62
 3	140	7164217287576686	CMakeFiles/EDA_CLion.dir/Filas/fila.c.obj	923026fc4877241c
 46	212	7163556046261263	CMakeFiles/EDA_CLion.dir/Pilhas/pilha.c.obj	93bf84510456aea2
-4	145	7174696520064358	CMakeFiles/EDA_CLion.dir/deques/exercicio1-deque.c.obj	8f9d5c24697a6d31
-5	189	7174700098672014	CMakeFiles/EDA_CLion.dir/deques/exercicio1-deque.c.obj	8f9d5c24697a6d31
-190	385	7174700100597738	EDA_CLion.exe	b5e9a2bd032b22a7
-3	156	7174700739523472	CMakeFiles/EDA_CLion.dir/deques/exercicio1-deque.c.obj	8f9d5c24697a6d31
-156	322	7174700741147039	EDA_CLion.exe	b5e9a2bd032b22a7
-3	157	7174701981306555	CMakeFiles/EDA_CLion.dir/deques/exercicio1-deque.c.obj	8f9d5c24697a6d31
-158	329	7174701982988611	EDA_CLion.exe	b5e9a2bd032b22a7
+16	193	7174745458430614	CMakeFiles/EDA_CLion.dir/deques/exercicio1-deque.c.obj	8f9d5c24697a6d31
