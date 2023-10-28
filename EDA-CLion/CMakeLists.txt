@@ -12,4 +12,5 @@ add_executable(EDA_CLion
         deques/deque.c
         deques/exercicio1-deque.c
         quicksort.c
+        arvore-binaria.c
 )

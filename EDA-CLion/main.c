@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 int main(){
 //    questao1Pilha();
 //    pilhas();
@@ -9,5 +10,6 @@ int main(){
 //exercicio2();
 
 //questao1();
-exx2g();
-};
+//arvoreBinaria();
+quicksortMain();
+}
