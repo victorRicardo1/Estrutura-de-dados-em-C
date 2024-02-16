@@ -114,17 +114,14 @@ int quicksortMain() {
     quickSort(arr3, 0, size - 1);
     clock_t end3 = clock();
     double cpu_time_used3 = ((double) (end3 - start3)) / CLOCKS_PER_SEC;
-    printf("Tempo de execucao da primeira metade ordenada crescente e segunda metade ordenada decrescentemente: %f segundos\n",
-           cpu_time_used3);
+    printf("Tempo de execucao da primeira metade ordenada crescente e segunda metade ordenada decrescentemente: %f segundos\n",cpu_time_used3);
 
     // Primeira metade ordenada decrescente, segunda metade ordenada crescentemente
-    generateHalfSortedArray(arr4, size);
+    generateHalfSortedArray2(arr4, size);
 
     clock_t start4 = clock();
     quickSort(arr4, 0, size - 1);
     clock_t end4 = clock();
     double cpu_time_used4 = ((double)(end4 - start4)) / CLOCKS_PER_SEC;
     printf("Tempo de execucao da primeira metade ordenada decrescente e segunda metade ordenada crescentemente: %f segundos\n", cpu_time_used4);
-
-
 }

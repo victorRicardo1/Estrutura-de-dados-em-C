@@ -10,6 +10,6 @@ int main(){
 //exercicio2();
 
 //questao1();
-//arvoreBinaria();
-quicksortMain();
+arvoreBinaria();
+//quicksortMain();
 }

@@ -63,6 +63,7 @@ bool inserirNo(PONT * raiz, TIPOCHAVE novaChave){
 // Busca binária não recursiva devolvendo o nó pai
 PONT buscaNo(PONT raiz, TIPOCHAVE ch, PONT *pai){
     PONT atual = raiz;
+
     *pai = NULL;
     while (atual) {
         if(atual->chave == ch)
@@ -84,6 +85,7 @@ PONT maior_esquerdo(PONT p, PONT *ant){
     return(p);
 }
 
+/*
 bool excluirChave(PONT *raiz, TIPOCHAVE ch){
     PONT atual, no_pai, substituto, pai_substituto;
     substituto=NULL;
@@ -111,6 +113,46 @@ bool excluirChave(PONT *raiz, TIPOCHAVE ch){
         free(substituto);
     }
 }
+ */
+
+//Forma 2 pra remover
+
+PONT remover(PONT raiz, int ch){
+    if(!raiz) return NULL;
+    if(raiz->chave == ch){
+        //Remoção de folha
+        if((!raiz->esq)&&(!raiz->dir)){
+            free(raiz);
+            return NULL;
+        }else{
+            //caso o nó tenha 1 filho
+            if(raiz->esq != NULL || raiz->dir != NULL){
+                PONT aux;
+                if(raiz->esq != NULL)
+                    aux = raiz->esq;
+                else
+                    aux = raiz -> dir;
+                free(raiz);
+                return aux;
+            }else if(raiz->esq && raiz->dir){
+                PONT auxPai;
+            }
+
+        }
+    }else{
+        if(ch < raiz->chave){
+            printf("Passando pelo nodo de chave: %d\n", raiz->chave);
+            raiz->esq = remover(raiz->esq, ch);
+        }else{
+            printf("Passando pelo nodo de chave: %d\n", raiz->chave);
+            raiz->dir = remover(raiz->dir, ch);
+        }
+        return raiz;
+    }
+}
+
+//Função
+
 
 /* Exibe arvore Em Ordem */
 void exibirArvoreEmOrdem(PONT raiz){
@@ -127,6 +169,7 @@ void exibirArvorePreOrdem(PONT raiz){
     exibirArvorePreOrdem(raiz->esq);
     exibirArvorePreOrdem(raiz->dir);
 }
+
 
 /* Exibe arvore Pos Ordem */
 void exibirArvorePosOrdem(PONT raiz){
@@ -164,23 +207,21 @@ void destruirArvore(PONT * raiz){
 }
 
 
-void inicializar(PONT * raiz){
-    *raiz = NULL;
-}
-
-int count(PONT raiz) {
+int contar(PONT raiz) {
     int contador;
     if (raiz == NULL) {
         return 0;
     } else {
-        contador = 1 + count(raiz->esq) + count(raiz->dir);
+        int e = contar(raiz->esq);
+        int d = contar(raiz->dir);
+        contador = 1 + e + d;
         return contador;
     }
 }
 
 int contarNoFolha(PONT raiz){
     if(raiz == NULL) return 0;
-    if((!raiz -> esq)&&(!raiz->dir)) return 1;
+    if((!raiz -> esq)&&(!raiz->dir)) return 1; // its equal if(raiz -> esq == NULL && raiz-> dir == NULL);
     return contarNoFolha(raiz->esq) + contarNoFolha(raiz->dir);
 }
 
@@ -197,16 +238,22 @@ int menorChave(int A, int B){
 
 int MaiorMenor(PONT raiz, int *max, int *min){
     if(!raiz) return 0;
-    MaiorMenor(raiz->esq, &max, &min);
-    MaiorMenor(raiz->dir, &max, &min);
+    if(*max == -1 || *min == -1){
+        *min = raiz->chave;
+        *max = raiz ->chave;
+    }
     *max = maiorChave(*max, raiz->chave);
     *min = menorChave(*min, raiz->chave);
+
+    MaiorMenor(raiz->esq, max, min);
+    MaiorMenor(raiz->dir, max, min);
 }
 
 int arvoreBinaria() {
     PONT raiz = NULL; // Inicializa a árvore
-    int contador;
     int escolha;
+    int max = -1;
+    int min = -1;
     TIPOCHAVE chave;
 
     do {
@@ -220,7 +267,8 @@ int arvoreBinaria() {
         printf("7 - Exibir arvore com Parenteses\n");
         printf("8 - Contar elementos da arvore\n");
         printf("9 - Contar folhas da arvore\n");
-        printf("10 - Sair\n");
+        printf("10 - Exibir maior e menor da arvore\n");
+        printf("11 - Sair\n");
 
         scanf("%d", &escolha);
         switch (escolha) {
@@ -232,7 +280,7 @@ int arvoreBinaria() {
             case 2:
                 printf("Digite a chave a ser excluida: ");
                 scanf("%d", &chave);
-                excluirChave(&raiz, chave);
+                raiz = remover(raiz, chave);
                 break;
             case 3:
                 printf("Digite a chave a ser buscada: ");
@@ -266,18 +314,23 @@ int arvoreBinaria() {
                 printf("\n");
                 break;
             case 8:
-                printf("Quantidade de nos na arvore: %d\n", count(raiz));
+                printf("Quantidade de nos na arvore: %d\n", contar(raiz));
                 break;
             case 9:
                 printf("Quantidade de folhas na arvore: %d\n", contarNoFolha(raiz));
                 break;
             case 10:
+                MaiorMenor(raiz, &max, &min);
+                printf("Maior valor: %d\n", max);
+                printf("Menor valor: %d", min);
+                break;
+            case 11:
                 printf("Saindo do programa...\n");
                 break;
             default:
                 printf("Opcao invalida. Tente novamente.\n");
         }
-    } while (escolha != 10);
+    } while (escolha != 11);
 
     // Destroi a árvore e libera a memória
     destruirArvore(&raiz);

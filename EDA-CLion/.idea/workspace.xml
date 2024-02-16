@@ -20,21 +20,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ff4ed99-e618-46ea-a4fe-737afc405b63" name="Changes" comment="ex-deque">
-      <change afterPath="$PROJECT_DIR$/arvore-binaria.c" afterDir="false" />
+    <list default="true" id="7ff4ed99-e618-46ea-a4fe-737afc405b63" name="Changes" comment="quicksort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-32cc68009f94157c1bb1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-09-28T19-53-52-0513.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-EDA_CLion-Debug-723a8b345000637dc6d1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arvore-binaria.c" beforeDir="false" afterPath="$PROJECT_DIR$/arvore-binaria.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EDA_CLion.dir/deques/deque.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EDA_CLion.dir/deques/deque.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EDA_CLion.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EDA_CLion.dir/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/EDA_CLion.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/EDA_CLion.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quicksort.c" beforeDir="false" afterPath="$PROJECT_DIR$/quicksort.c" afterDir="false" />
     </list>
@@ -124,7 +117,24 @@
       <workItem from="1698163487407" duration="5202000" />
       <workItem from="1698261087339" duration="6649000" />
       <workItem from="1698270552506" duration="6505000" />
-      <workItem from="1698441761636" duration="5643000" />
+      <workItem from="1698441761636" duration="5820000" />
+      <workItem from="1698520289256" duration="2000000" />
+      <workItem from="1699396408045" duration="359000" />
+      <workItem from="1699561827559" duration="1460000" />
+      <workItem from="1699567312604" duration="1531000" />
+      <workItem from="1699572443275" duration="92000" />
+      <workItem from="1699922226664" duration="599000" />
+      <workItem from="1700345854984" duration="1884000" />
+      <workItem from="1702671037980" duration="177000" />
+      <workItem from="1707259387168" duration="420000" />
+      <workItem from="1707432197746" duration="4202000" />
+      <workItem from="1707777821666" duration="5120000" />
+      <workItem from="1707849686198" duration="1782000" />
+      <workItem from="1707858723736" duration="154000" />
+      <workItem from="1707863342925" duration="4252000" />
+      <workItem from="1708024137806" duration="4251000" />
+      <workItem from="1708035333626" duration="703000" />
+      <workItem from="1708036884704" duration="2374000" />
     </task>
     <task id="LOCAL-00001" summary="questao1">
       <option name="closed" value="true" />
@@ -174,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695767093270</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="quicksort">
+      <option name="closed" value="true" />
+      <created>1698456317542</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698456317542</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +234,8 @@
     <MESSAGE value="outros arquivos" />
     <MESSAGE value="pilha" />
     <MESSAGE value="ex-deque" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex-deque" />
+    <MESSAGE value="add" />
+    <MESSAGE value="quicksort" />
+    <option name="LAST_COMMIT_MESSAGE" value="quicksort" />
   </component>
 </project>
