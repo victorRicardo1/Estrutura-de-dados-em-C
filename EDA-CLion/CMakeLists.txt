@@ -13,4 +13,5 @@ add_executable(EDA_CLion
         deques/exercicio1-deque.c
         quicksort.c
         arvore-binaria.c
+        "Heap binary tree/Heap array.c"
 )
